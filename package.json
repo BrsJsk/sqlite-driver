@@ -1,0 +1,32 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "ORM for sqlite",
+  "main": "index.js",
+  "scripts": {
+    "start:example": "tsc && node dist/example/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrsJsk/sqlite-driver.git"
+  },
+  "keywords": [
+    "sqlite",
+    "orm"
+  ],
+  "author": "Boris Joskic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrsJsk/sqlite-driver/issues"
+  },
+  "homepage": "https://github.com/BrsJsk/sqlite-driver#readme",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "prettier": "1.19.1",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  }
+}
