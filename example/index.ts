@@ -1,7 +1,7 @@
 import { IModel } from "../src/migrations/interface/model.interface";
-import { createMigrations } from "../src/migrations";
+import { createMigrations, runMigrations } from "../src/migrations";
 
-const migrate = () => {
+const create = () => {
 	// example models
 	const models: IModel[] = [
 		{
@@ -28,7 +28,11 @@ const migrate = () => {
 const run = () => {
 	console.log("Hello from example!");
 
-	migrate();
+	create();
+
+	setTimeout(() => {
+		runMigrations();
+	}, 5000);
 };
 
 run();

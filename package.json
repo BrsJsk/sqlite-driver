@@ -21,10 +21,12 @@
   },
   "homepage": "https://github.com/BrsJsk/sqlite-driver#readme",
   "dependencies": {
-    "chalk": "^3.0.0"
+    "chalk": "^3.0.0",
+    "sqlite3": "^4.1.1"
   },
   "devDependencies": {
     "@types/node": "^13.9.0",
+    "@types/sqlite3": "^3.1.6",
     "prettier": "1.19.1",
     "tslint": "^6.1.0",
     "typescript": "^3.8.3"
